@@ -1,8 +1,13 @@
 this a project for signing.
 20210424
-add 2 files in branch
+
+more files test
 add again in branch
-no networking in 16:59.
+
+time log
 move pc to here
-if to other com
+cominfo
+1
+
+20210426 monday
 
