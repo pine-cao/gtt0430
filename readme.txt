@@ -24,7 +24,8 @@ git log --pretty=oneline
 git reflog
 git reset --hard ID
 
-
+//stage; branches;
+change tracks
 
 
 
