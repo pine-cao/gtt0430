@@ -26,6 +26,7 @@ git reset --hard ID
 
 //stage; branches;
 change tracks
+change trancks again.
 
 
 
