@@ -13,3 +13,18 @@ cominfo
 
 abc123456
 
+
+git init
+git add .
+git commit -m "change text"
+git status
+git diff
+git log
+git log --pretty=oneline
+git reflog
+git reset --hard ID
+
+
+
+
+
