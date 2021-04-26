@@ -1,6 +1,5 @@
-c language 
+guage 
 
-add a lin
-line
+add a li
 
 file1 changes
