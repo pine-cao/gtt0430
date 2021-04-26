@@ -7,7 +7,6 @@ add again in branch
 time log
 move pc to here
 cominfo
-1
 
 20210426 monday
 
@@ -23,6 +22,8 @@ git log
 git log --pretty=oneline
 git reflog
 git reset --hard ID
+git checkout -- file
+git reset HEAD file
 
 //stage; branches;
 change tracks
