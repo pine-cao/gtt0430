@@ -22,8 +22,9 @@ git log
 git log --pretty=oneline
 git reflog
 git reset --hard ID
-git checkout -- file
-git reset HEAD file
+git checkout -- filename
+git reset HEAD filename
+git rm filename
 
 //stage; branches;
 change tracks
