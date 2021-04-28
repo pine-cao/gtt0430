@@ -12,7 +12,7 @@ cominfo
 
 abc123456
 
-
+add some commands using in git:
 git init
 git add .
 git commit -m "change text"
