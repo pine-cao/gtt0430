@@ -1,3 +1,5 @@
+rm file1.c
+
 guage 
 
 add a li
