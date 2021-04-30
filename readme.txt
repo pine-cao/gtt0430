@@ -27,7 +27,7 @@ git reset HEAD filename
 git rm filename
 
 #ssh-keygen -t rsa -C "youremail@example.com"
-git remote add origin git@github.com:pine-cao/gtt.git
+git remote add origin git@github.com:pine-cao/gtt0430.git
 git push -u origin master
 git push origin master
 
