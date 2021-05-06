@@ -32,6 +32,8 @@ git remote add origin git@github.com:pine-cao/gtt0430.git
 git push -u origin master
 git push origin master
 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 git clone git@github.com:pine-cao/gtt0430.git
 git clone https://github.com/pine-cao/gtt0430.git
 git://
