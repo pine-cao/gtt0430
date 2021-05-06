@@ -32,7 +32,8 @@ git remote add origin git@github.com:pine-cao/gtt0430.git
 git push -u origin master
 git push origin master
 
-git clone git@github.com:pine-cao/gttsorigin.git
+git clone git@github.com:pine-cao/gtt0430.git
+git clone https://github.com/pine-cao/gtt0430.git
 git://
 https://
 
