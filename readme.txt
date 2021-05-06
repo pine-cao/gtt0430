@@ -39,10 +39,19 @@ git clone https://github.com/pine-cao/gtt0430.git
 git://
 https://
 
+bug branch:
+git branch
+
+git stash
+git checkout master
+git checkout -b issus101
+git stash list
+git stash apply stash@{0}
+git stash drop
+git stash pop
+git checkout dev
 
 //stage; branches;
 change tracks
 change trancks again.
-
-
 
