@@ -39,9 +39,14 @@ git clone https://github.com/pine-cao/gtt0430.git
 git://
 https://
 
-bug branch:
+branch:
 git branch
+
+git branch dev
+git checkout dev
+=
 git checkout -b dev
+//create a new branch dev in git
 
 git stash
 git checkout master
