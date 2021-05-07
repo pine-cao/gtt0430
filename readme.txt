@@ -39,13 +39,22 @@ git clone https://github.com/pine-cao/gtt0430.git
 git://
 https://
 
-//bug branch:
+<<<<<<< HEAD
 git branch
-git branck dev
+git branch dev
 git checkout dev
 git checkout -b dev
 git merge
 git branch -d dev
+=======
+branch:
+git branch
+
+git branch dev
+git checkout dev
+=
+git checkout -b dev
+>>>>>>> dev
 
 git stash
 git checkout master
