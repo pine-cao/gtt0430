@@ -41,6 +41,7 @@ https://
 
 bug branch:
 git branch
+git checkout -b dev
 
 git stash
 git checkout master
