@@ -55,6 +55,8 @@ git checkout dev
 git checkout -b dev
 >>>>>>> dev
 
+git log --graph --pretty=oneline
+
 git stash
 git checkout master
 git checkout -b issus101
