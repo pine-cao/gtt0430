@@ -47,13 +47,15 @@ git checkout -b dev
 git merge
 git branch -d dev
 =======
-branch:
+//branch:
 git branch
 git branch dev
 git checkout dev
 =
 git checkout -b dev
 >>>>>>> dev
+
+git restore --staged filename
 
 git log --graph --pretty=oneline
 
@@ -67,6 +69,11 @@ git stash pop
 git checkout dev
 
 //stage; branches;
-change tracks
-change trancks again.
+//change tracks
+//change trancks again.
+
+//fast git:
+https://github.com/pine-cao
+https://github.com.cnpmjs.org/pine-cao
+https://hub.fastgit.org/pine-cao
 
