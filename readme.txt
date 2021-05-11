@@ -40,20 +40,19 @@ git://
 https://
 
 <<<<<<< HEAD
+//conflict branch in diff branch;first fix branches,than add and commit;
 git branch
-git branch dev
-git checkout dev
-git checkout -b dev
-git merge
-git branch -d dev
-=======
-//branch:
-git branch
-git branch dev
-git checkout dev
+git branch dev //create a branch
+git checkout dev //switch to branch
 =
-git checkout -b dev
+git checkout -b dev //create and switch to a branch
+git checkout master
+git merge dev
+git branch -d dev
 >>>>>>> dev
+
+git merge --no-ff -m "merge with no-ff" dev // no fast forward model
+git log --graph --pretty=oneline --abbrev-commit
 
 git restore --staged filename
 
