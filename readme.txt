@@ -78,6 +78,8 @@ git checkout dev
 >>>>>>> dev
 //branch learn master and dev merge fix 2021-0512
 
+//branch dev2 --no-ff, no fast forward; git merge --no-ff -m "no fast forward merge" dev2
+
 //fast git:
 https://github.com/pine-cao
 https://github.com.cnpmjs.org/pine-cao
