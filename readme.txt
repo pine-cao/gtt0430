@@ -71,7 +71,12 @@ git checkout dev
 //change tracks
 //change trancks again.
 
+<<<<<<< HEAD
 //branch learn master 2021-0512
+=======
+//branch learn dev 2021-0512
+>>>>>>> dev
+//branch learn master and dev merge fix 2021-0512
 
 //fast git:
 https://github.com/pine-cao
