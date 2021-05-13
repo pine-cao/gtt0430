@@ -53,11 +53,26 @@ git branch -d dev
 
 git merge --no-ff -m "merge with no-ff" dev // no fast forward model
 git log --graph --pretty=oneline --abbrev-commit
-
 git restore --staged filename
-
 git log --graph --pretty=oneline
 
+//stage; branches;
+//change tracks
+//change trancks again.
+<<<<<<< HEAD
+//branch learn master 2021-0512
+=======
+//branch learn dev 2021-0512
+>>>>>>> dev
+//branch learn master and dev merge fix 2021-0512
+//branch dev2 --no-ff, no fast forward; git merge --no-ff -m "no fast forward merge" dev2
+
+//fast git:
+https://github.com/pine-cao
+https://github.com.cnpmjs.org/pine-cao
+https://hub.fastgit.org/pine-cao
+
+//bug branch
 git stash
 git checkout master
 git checkout -b issus101
@@ -67,21 +82,4 @@ git stash drop
 git stash pop
 git checkout dev
 
-//stage; branches;
-//change tracks
-//change trancks again.
-
-<<<<<<< HEAD
-//branch learn master 2021-0512
-=======
-//branch learn dev 2021-0512
->>>>>>> dev
-//branch learn master and dev merge fix 2021-0512
-
-//branch dev2 --no-ff, no fast forward; git merge --no-ff -m "no fast forward merge" dev2
-
-//fast git:
-https://github.com/pine-cao
-https://github.com.cnpmjs.org/pine-cao
-https://hub.fastgit.org/pine-cao
 
