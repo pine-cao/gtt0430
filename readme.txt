@@ -73,13 +73,37 @@ https://github.com.cnpmjs.org/pine-cao
 https://hub.fastgit.org/pine-cao
 
 //bug branch
+git checkout dev
+//doing work here,but not finished.
 git stash
 git checkout master
-git checkout -b issus101
+git checkout -b issue101
+//edit something
+git add filename
+git commit -m "fixbug in 101"
+git checkout master
+git merge --no-ff -m "merged bug fix from branch 101" issue101
+git branch -d issue101
+git checkout dev
+//want to work in dev branch,from the beginning.
+git status
 git stash list
 git stash apply stash@{0}
 git stash drop
 git stash pop
+//pop from the stash.and work again.
+
+//add a new feature in branch
 git checkout dev
+git checkout -b newfeature
+git add .
+git status
+git commit -m "add a new feature"
+git checkout dev
+//do not merge it ,delete newfeature branch
+git branch -d newfeature
+//error:the branch newfeature is not fully merged.
+git branch -D newfeature
+//deleted branch newfeature
 
 
